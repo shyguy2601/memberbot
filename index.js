@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-bot.login(token);
+
 bot.on('ready',() =>{
    
    let myGuild = bot.guilds.cache.get('715034413532184587');
